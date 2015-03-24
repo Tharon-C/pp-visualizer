@@ -1,0 +1,174 @@
+/* ==========================================================================
+ paint protection app
+ =============================================================================*/
+#pp-app {  
+  margin-bottom: 75px;
+  #container {
+  width: 100%;
+  position: relative;
+  /*width: 546px;*/
+  max-width: 800px;
+  overflow: hidden;
+  }
+
+  #vehicle {
+  width: 74%;
+  float: left;
+  }
+
+  #vehicle img,  #llumar-logo img {
+  width: 100%;
+  }
+
+  .highlight {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  display: none;
+  }
+
+  #red-coverage {
+  position: absolute;
+  width: 45%;
+  left: 26%;
+  top: 93%;
+  }
+
+  #llumar-logo {
+  width: 20%;
+  margin-top: 44%;
+  float: right;
+  margin-right: 2%;
+  position: relative;
+  }
+
+  #menu {
+  position: absolute;
+  width: 29%;
+  right: 2%;
+  top: 29%;
+  z-index: 1;
+  list-style: none;
+  }
+
+  #menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  display: block;
+  }
+
+  #menu li {
+  display: block;
+  width: 100%;
+  padding-left: 1em;
+  }
+
+  #menu li a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  margin-left: 1px;
+  padding: 0.5em 0.6em;
+  outline: none;
+  font-size: 1.5em;
+  }
+
+  #menu .active {
+  background: url("../img/arrow.png") left center no-repeat;
+  }
+
+  #menu .active a {
+  color: #666666;
+  background: url("images/menu-active-back.png") right top repeat-y;
+  }
+
+  #menu .menu-1 a,
+  #menu .menu-2 a,
+  #menu .menu-3 a,
+  #menu .menu-4 a,
+  #menu .menu-5 a,     
+  #menu .menu-6 a,     
+  #menu .menu-7 a,
+  #menu .menu-8 a,
+  #menu .menu-9 a { 
+    border-bottom: 2px solid lightgrey; 
+    &:hover {
+      background:lightgrey;
+    }
+  }
+
+
+  #vehicle img {
+  width: 100%;
+  }
+
+  #menu {
+  float:right;
+  position: relative;
+  width: 25%;
+  margin: 0 auto;
+  }
+
+  #menu li {
+  display: inline-block;
+  margin: 1px;
+  }
+
+  #menu li a {
+  margin-left: 0px;
+  padding: 0.4em 0.6em;
+  font-size: 12px;
+  }
+
+  #menu li:nth-child(odd) {
+  clear: both;
+  }
+
+
+  #llumar-logo {
+  margin-top: 5%;
+  width: 25%;
+  }
+
+  #red-coverage {
+  width: 60%;
+  clear: both;
+  position: relative;
+  left: 0;
+  margin: 0 auto;
+  padding: 7px 0 0 2px;
+  }
+
+  a:link {
+  color: #006699;
+  text-decoration: none;
+  }
+  a:visited {
+  text-decoration: none;
+  color: #006699;
+  }
+  a:hover {
+  text-decoration: underline;
+  color: #999999;
+  }
+  a:active {
+  text-decoration: none;
+  }
+
+  #badge {
+    width:33%;
+    position:absolute;
+    bottom:-50px;
+    left:0;
+  }
+
+  .disclaimer {
+    float:right;
+    color:#ab0707;
+    font-size: 16px;
+  }
+}

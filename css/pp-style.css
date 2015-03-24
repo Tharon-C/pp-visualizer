@@ -1,0 +1,114 @@
+/* ==========================================================================
+ paint protection app
+ =============================================================================*/
+#pp-app {
+  margin-bottom: 75px; }
+  #pp-app #container {
+    width: 100%;
+    position: relative;
+    /*width: 546px;*/
+    max-width: 800px;
+    overflow: hidden; }
+  #pp-app #vehicle {
+    width: 74%;
+    float: left; }
+  #pp-app #vehicle img, #pp-app #llumar-logo img {
+    width: 100%; }
+  #pp-app .highlight {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    display: none; }
+  #pp-app #red-coverage {
+    position: absolute;
+    width: 45%;
+    left: 26%;
+    top: 93%; }
+  #pp-app #llumar-logo {
+    width: 20%;
+    margin-top: 44%;
+    float: right;
+    margin-right: 2%;
+    position: relative; }
+  #pp-app #menu {
+    position: absolute;
+    width: 29%;
+    right: 2%;
+    top: 29%;
+    z-index: 1;
+    list-style: none; }
+  #pp-app #menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    display: block; }
+  #pp-app #menu li {
+    display: block;
+    width: 100%;
+    padding-left: 1em; }
+  #pp-app #menu li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-left: 1px;
+    padding: 0.5em 0.6em;
+    outline: none;
+    font-size: 1.5em; }
+  #pp-app #menu .active {
+    background: url("../img/arrow.png") left center no-repeat; }
+  #pp-app #menu .active a {
+    color: #666666;
+    background: url("images/menu-active-back.png") right top repeat-y; }
+  #pp-app #menu .menu-1 a, #pp-app #menu .menu-2 a, #pp-app #menu .menu-3 a, #pp-app #menu .menu-4 a, #pp-app #menu .menu-5 a, #pp-app #menu .menu-6 a, #pp-app #menu .menu-7 a, #pp-app #menu .menu-8 a, #pp-app #menu .menu-9 a {
+    border-bottom: 2px solid lightgrey; }
+    #pp-app #menu .menu-1 a:hover, #pp-app #menu .menu-2 a:hover, #pp-app #menu .menu-3 a:hover, #pp-app #menu .menu-4 a:hover, #pp-app #menu .menu-5 a:hover, #pp-app #menu .menu-6 a:hover, #pp-app #menu .menu-7 a:hover, #pp-app #menu .menu-8 a:hover, #pp-app #menu .menu-9 a:hover {
+      background: lightgrey; }
+  #pp-app #vehicle img {
+    width: 100%; }
+  #pp-app #menu {
+    float: right;
+    position: relative;
+    width: 25%;
+    margin: 0 auto; }
+  #pp-app #menu li {
+    display: inline-block;
+    margin: 1px; }
+  #pp-app #menu li a {
+    margin-left: 0px;
+    padding: 0.4em 0.6em;
+    font-size: 12px; }
+  #pp-app #menu li:nth-child(odd) {
+    clear: both; }
+  #pp-app #llumar-logo {
+    margin-top: 5%;
+    width: 25%; }
+  #pp-app #red-coverage {
+    width: 60%;
+    clear: both;
+    position: relative;
+    left: 0;
+    margin: 0 auto;
+    padding: 7px 0 0 2px; }
+  #pp-app a:link {
+    color: #006699;
+    text-decoration: none; }
+  #pp-app a:visited {
+    text-decoration: none;
+    color: #006699; }
+  #pp-app a:hover {
+    text-decoration: underline;
+    color: #999999; }
+  #pp-app a:active {
+    text-decoration: none; }
+  #pp-app #badge {
+    width: 33%;
+    position: absolute;
+    bottom: -50px;
+    left: 0; }
+  #pp-app .disclaimer {
+    float: right;
+    color: #ab0707;
+    font-size: 16px; }
