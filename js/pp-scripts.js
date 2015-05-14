@@ -20,7 +20,7 @@ jQuery(document).ready(function () {
 	                $(this).parent().toggleClass('active');
 	            }
 	            var active = 0;
-	            $('.pp-button').each(function () {
+	            $('.ppv-button').each(function () {
 	                if ($(this).hasClass('active')) {
 	                    active++;
 	                }

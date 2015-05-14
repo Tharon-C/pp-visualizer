@@ -12,6 +12,7 @@
   }
 
   #vehicle {
+  position:relative;
   width: 74%;
   float: left;
   }
@@ -167,8 +168,8 @@
   }
 
   .disclaimer {
-    float:right;
     color:#ab0707;
-    font-size: 16px;
+    font-size: 12px;
+    margin-top:15px;
   }
 }

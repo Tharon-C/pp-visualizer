@@ -10,6 +10,7 @@
     max-width: 800px;
     overflow: hidden; }
   #pp-app #vehicle {
+    position: relative;
     width: 74%;
     float: left; }
   #pp-app #vehicle img, #pp-app #llumar-logo img {
@@ -109,6 +110,6 @@
     bottom: -50px;
     left: 0; }
   #pp-app .disclaimer {
-    float: right;
     color: #ab0707;
-    font-size: 16px; }
+    font-size: 12px;
+    margin-top: 15px; }
